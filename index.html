@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<link rel="stylesheet" href="styles.css">
+    <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
@@ -9,15 +10,18 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
-  </head>
+    </head>
 
-  <body>
-    Howdy, world! <br>
-    This is the current date and time, as computed by Python:
-    <py-script>
-        from datetime import datetime
-        now = datetime.now()
-        now.strftime("%m/%d/%Y, %H:%M:%S")
-    </py-script>
-  </body>
+    <body>
+        Howdy, world! <br>
+        This is the current date and time, as computed by Python:
+
+        <py-script>
+            from datetime import datetime
+            now = datetime.now()
+            now.strftime("%m/%d/%Y, %H:%M:%S")
+        </py-script>
+
+        <box href=""></box>
+    </body>
 </html>
