@@ -1,7 +1,7 @@
 h1 {
     size: 40;
     text-align: center;
-    display: inline;
+    display: block;
     color: rebeccapurple;
   }
 
@@ -9,6 +9,6 @@ body {
     size: 24;
     font: Arial, sans-serif;
     text-align: center;
-    display: inline;
+    display: block;
     background-image: "back.jpeg";
 }
