@@ -10,5 +10,6 @@ body {
     font: Arial, sans-serif;
     text-align: center;
     display: block;
-    background-image: "back.jpeg";
+    /* background-image: "back.jpeg"; */
+    background-color: #edebe9;
 }
