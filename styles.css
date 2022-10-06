@@ -1,10 +1,14 @@
 h1 {
     size: 40;
     text-align: center;
+    display: inline;
+    color: rebeccapurple;
   }
 
 body {
-    size: 20;
+    size: 24;
     font: Arial, sans-serif;
     text-align: center;
+    display: inline;
+    background-image: "back.jpeg";
 }
