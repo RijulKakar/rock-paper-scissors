@@ -10,8 +10,13 @@ body {
     font: Arial, sans-serif;
     text-align: center;
     display: block;
-    /* background-image: "back.jpeg"; */
-    background-color: #edebe9;
+    /* background-image: url("images/rpsback.png"); */
+    /* background-color: #edebe9; */
+    background: url(images/rpsback.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .card {
@@ -23,9 +28,9 @@ body {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    background: url("play.png") no-repeat;
+    background: url("images/play.png") no-repeat;
 }
 
 .card:hover {
-    background: url("play-hover.png") no-repeat;
+    background: url("images/play-hover.png") no-repeat;
 }
