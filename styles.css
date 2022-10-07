@@ -19,9 +19,9 @@ body {
     height: 512px;
     position: relative;
     display: block;
-    background: "play.png";
+    background: url("play.png") no-repeat;
 }
 
 .card:hover {
-    background: "play-hover.png";
+    background: url("play-hover.pngs") no-repeat;
 }
