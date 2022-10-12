@@ -19,7 +19,7 @@ body {
     background-size: cover;
 }
 
-.card {
+.play {
     width: 835px;
     height: 835px;
     scale: .75;
@@ -31,6 +31,6 @@ body {
     background: url("images/play.png") no-repeat;
 }
 
-.card:hover {
+.play:hover {
     background: url("images/play-hover.png") no-repeat;
 }
