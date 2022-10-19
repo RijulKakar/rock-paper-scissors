@@ -16,26 +16,17 @@
     </head>
 
     <body>
+
         Click play to begin! <br>
-        <!-- <img src="play.png" alt="play button image here"
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width="512";
-            height="512";
-            onmouseover="play-hover.png";
-            onmouseout="play.png";
-        /> -->
+
+        <!-- play button -->
+        <div class="play" id="play"></div>
         
-        <!-- inserts play image and hover image -->
-        <div class="play" onclick="start-game"></div>
-
-        <!-- Script to get rid of play button and put up other images
-        work on this during meeting please
-        feel free to alter the code however needed -->
-        <script>
-            
-
+        <!-- script redirects to play screen -->
+        <script type="text/javascript">
+            document.getElementById("play").onclick = function () {
+        location.href = "play.html";
+        };
         </script>
 
     </body>
