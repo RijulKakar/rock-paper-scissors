@@ -35,3 +35,11 @@ body {
     background: url("images/play-hover.png") no-repeat;
 }
 
+.back-arrow {
+    width: 920;
+    height: 560;
+    scale: .50;
+    position: relative;
+    display:block;
+    background: url("images/back-arrow.png") no-repeat;
+}
