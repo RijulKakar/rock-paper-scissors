@@ -33,13 +33,19 @@ body {
 
 .play:hover {
     background: url("images/play-hover.png") no-repeat;
+    cursor: pointer;
 }
 
-.back-arrow {
-    width: 920;
-    height: 560;
-    scale: .50;
-    position: relative;
-    display:block;
-    background: url("images/back-arrow.png") no-repeat;
+#back {
+    position: fixed;
+    width:230 ;
+    height:140 ;
+    bottom: 0;
+    left: 0;
 }
+
+img:hover {
+    cursor:pointer;
+    
+}
+
